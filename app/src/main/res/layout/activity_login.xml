@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="dbxprts.terminaltrak.LoginActivity">
+
+    <ImageView
+        android:id="@+id/loginImageBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background" />
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_login2_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparency_background"
+        tools:context="dbxprts.terminaltrak.LoginActivity">
+
+        <TextView
+            android:id="@+id/versionNumberLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:text="TextView"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/TEST"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/userField"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="27dp"
+            android:text="GRAMOSA Logistics"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/passwordField"
+            style="@style/Widget.AppCompat.EditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/userField"
+            android:layout_alignStart="@+id/userField"
+            android:layout_below="@+id/userField"
+            android:layout_marginTop="38dp"
+            android:backgroundTint="@android:color/white"
+            android:ems="10"
+            android:hint="Contraseña"
+            android:inputType="textFilter"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:textColorLink="@color/colorPrimary"
+            android:textCursorDrawable="@null" />
+
+        <Button
+            android:id="@+id/buttonData"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:layout_alignTop="@+id/passwordField"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            android:background="@color/ButtonPurple"
+            android:text="Ingresar"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/userField"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:backgroundTint="@android:color/white"
+            android:ems="10"
+            android:hint="Usuario"
+            android:inputType="textPersonName"
+            android:singleLine="false"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:textColorLink="@android:color/white"
+            android:textCursorDrawable="@null" />
+
+        <ImageView
+            android:id="@+id/loginImage"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_above="@+id/TEST"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="25dp"
+            app:srcCompat="@drawable/icon" />
+
+    </RelativeLayout>
+</RelativeLayout>

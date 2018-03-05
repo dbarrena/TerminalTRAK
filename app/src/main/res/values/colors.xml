@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#470f78</color>
+    <color name="colorPrimaryDark">#00081f</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="ButtonPurple">#470f78</color>
+    <color name="tab_background_selected">#703b9e</color>
+    <color name="transparency_background">#81000000</color>
+</resources>

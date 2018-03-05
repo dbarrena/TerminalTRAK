@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!-- Settings, should always be in the overflow -->
+    <item
+        android:id="@+id/filtrar_segmento"
+        android:title="@string/filtrar_segmento"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/filtrar_bloque"
+        android:title="Filtrar por bloque"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/filtrar_fase"
+        android:title="Filtrar por fase"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/borrar_filtros"
+        android:title="Borrar Filtros"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/carros_por_fases"
+        android:title="Mostrar Carros Por Fases"
+        app:showAsAction="never" />
+</menu>
